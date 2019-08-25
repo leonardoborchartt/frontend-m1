@@ -1,0 +1,24 @@
+<div className="dasda" ref={ref}>
+<p />
+<table  >
+    <thead>
+        <th>Produto</th>
+        <td>Qtd</td>
+      <td>x Valor</td>
+    </thead>
+    <tbody>
+        {carrinhos.map(carrinho => (
+            <tr key={carrinho._id}>
+                <td>{carrinho.name}</td>
+                <td>{carrinho.quantidade} * </td>
+                <td>R$ {carrinho.value}</td>
+                <td> = R$ {carrinho.value*carrinho.quantidade}</td>
+
+            </tr>
+        ))}
+         <tr>_____________________</tr>                           
+        <tr>           Valor Total: R$ {sum2}</tr>
+
+    </tbody>
+</table>
+</div>

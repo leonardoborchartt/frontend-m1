@@ -1,0 +1,40 @@
+table, th, td {
+    border: 1px solid #b8b5b5;
+    padding: 5px;
+    background-color: #dddddd;
+  }
+
+
+form {
+    width: 100%;
+     max-width: 300px;
+     display: flex;
+     flex-direction: column;   
+
+ 
+}
+
+input{
+    margin-top: 10px;
+    border: 5px, solid #dddddd;
+    border-radius: 4px;
+    height: 35px;
+    padding: 0 5px;
+    font-size: 16px;
+    color: #666;
+}
+form input ::placeholder{
+    color: #666;
+}
+
+button {
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ece9e9;
+}
+
+
+
+

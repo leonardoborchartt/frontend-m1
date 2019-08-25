@@ -1,0 +1,20 @@
+.divhome {
+    background-color: rgb(208, 209, 209);
+    width: 200px;
+    height: 100%;
+    position: left;
+    border-radius: 6px;
+    border: 1px solid rgb(104, 94, 94);
+}
+
+.buttonhome {
+    border-radius: 4px;
+    text-align: center;
+    margin-left:35px;
+}
+.buttonvenda{
+    border-radius: 6px;
+
+    margin-left:20px;
+    width: 150px;   
+}
