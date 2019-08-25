@@ -12,7 +12,7 @@ export default function PageHome({ history, match }) { //esse histoy é so pra r
             <Link to="/users"style={{textDecoration:'none'}}><Button variant="contained" >Cadastro Usuário</Button></Link> <p />
             <Link to="/produto"style={{textDecoration:'none'}}><Button variant="contained">Cadastro Produto</Button></Link><p />
             <Link to="/cidade"style={{textDecoration:'none'}}><Button variant="contained">Cadastro Cidade</Button></Link><p />
-            <Link to="/venda"style={{textDecoration:'none'}}><Button variant="contained">VENaaaDA</Button></Link>   <p />
+            <Link to="/venda"style={{textDecoration:'none'}}><Button variant="contained">VENDA</Button></Link>   <p />
         </>
     );
 }
